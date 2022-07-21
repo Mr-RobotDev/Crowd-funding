@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "841472904166",
+    "project_id": "afofacrowdfundingapp",
+    "storage_bucket": "afofacrowdfundingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841472904166:android:0d97e43be1d1fcb3c82427",
+        "android_client_info": {
+          "package_name": "com.example.afofa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841472904166-qnjj9giam8oh9l96osr7gsm4itv9frrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrjjwS7f0Dtb0_ro63E4SWI-4g1gD4Mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841472904166-qnjj9giam8oh9l96osr7gsm4itv9frrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
