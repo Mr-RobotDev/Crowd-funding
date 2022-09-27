@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           'Change the world with',
                           textAlign: TextAlign.center,
                           style:
-                              Theme.of(context).textTheme.headline6!.copyWith(
+                              Theme.of(context).textTheme.titleLarge!.copyWith(
                                     color: Colors.white,
                                     fontWeight: FontWeight.w600,
                                   ),
@@ -170,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           'your little help',
                           textAlign: TextAlign.center,
                           style:
-                              Theme.of(context).textTheme.headline6!.copyWith(
+                              Theme.of(context).textTheme.titleLarge!.copyWith(
                                     color: Colors.white,
                                     fontWeight: FontWeight.w600,
                                   ),
@@ -215,7 +215,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Text(
                   'Urgently Needed',
-                  style: Theme.of(context).textTheme.headline6!.copyWith(
+                  style: Theme.of(context).textTheme.titleLarge!.copyWith(
                         fontWeight: FontWeight.bold,
                       ),
                 ),

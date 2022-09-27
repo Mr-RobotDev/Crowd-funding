@@ -26,7 +26,7 @@ class CustomInputField extends StatelessWidget {
       textInputAction: textInputAction,
       onSubmitted: onSubmitted,
       cursorColor: AppColor.kPrimaryColor,
-      style: Theme.of(context).textTheme.bodyText2,
+      style: Theme.of(context).textTheme.bodyMedium,
       decoration: InputDecoration(
         filled: true,
         fillColor: AppColor.kPlaceholder3,

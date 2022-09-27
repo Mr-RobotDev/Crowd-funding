@@ -99,7 +99,7 @@ class DonationContent extends StatelessWidget {
                                 donation.organizer,
                                 style: Theme.of(context)
                                     .textTheme
-                                    .headline6!
+                                    .titleLarge!
                                     .copyWith(
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -111,7 +111,7 @@ class DonationContent extends StatelessWidget {
                                 donation.desc,
                                 style: Theme.of(context)
                                     .textTheme
-                                    .bodyText1!
+                                    .bodyLarge!
                                     .copyWith(
                                       color: AppColor.kTextColor1,
                                     ),
@@ -122,7 +122,7 @@ class DonationContent extends StatelessWidget {
                         Text(
                           '\$${donation.total}',
                           style:
-                              Theme.of(context).textTheme.headline6!.copyWith(
+                              Theme.of(context).textTheme.titleLarge!.copyWith(
                                     fontWeight: FontWeight.bold,
                                     color: AppColor.kPrimaryColor,
                                   ),
@@ -187,7 +187,7 @@ class DonatorContent extends StatelessWidget {
                                 donator.name,
                                 style: Theme.of(context)
                                     .textTheme
-                                    .headline6!
+                                    .titleLarge!
                                     .copyWith(
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -199,7 +199,7 @@ class DonatorContent extends StatelessWidget {
                                 donator.phoneNo,
                                 style: Theme.of(context)
                                     .textTheme
-                                    .bodyText1!
+                                    .bodyLarge!
                                     .copyWith(
                                       color: AppColor.kTextColor1,
                                     ),
@@ -210,7 +210,7 @@ class DonatorContent extends StatelessWidget {
                         Text(
                           '\$${donator.total}',
                           style:
-                              Theme.of(context).textTheme.headline6!.copyWith(
+                              Theme.of(context).textTheme.titleLarge!.copyWith(
                                     fontWeight: FontWeight.bold,
                                     color: AppColor.kPrimaryColor,
                                   ),

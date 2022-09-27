@@ -74,7 +74,7 @@ class UrgentCard extends StatelessWidget {
             ),
             Text(
               urgent.title,
-              style: Theme.of(context).textTheme.headline6!.copyWith(
+              style: Theme.of(context).textTheme.titleLarge!.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
             ),
@@ -132,7 +132,7 @@ class UrgentCard extends StatelessWidget {
                   ],
                 )
               ],
-            )
+            ),
           ],
         ),
       ),

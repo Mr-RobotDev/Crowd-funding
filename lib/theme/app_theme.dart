@@ -62,37 +62,37 @@ class AppTheme {
       ),
       textTheme: GoogleFonts.openSansTextTheme(
         TextTheme().copyWith(
-          headline1: TextStyle(
+          displayLarge: TextStyle(
             fontSize: 32.sp,
             color: AppColor.kTitle,
             fontWeight: FontWeight.bold,
           ),
-          headline2: TextStyle(
+          displayMedium: TextStyle(
             fontSize: 32.sp,
             color: AppColor.kTitle,
           ),
-          headline3: TextStyle(
+          displaySmall: TextStyle(
             fontSize: 24.sp,
             color: AppColor.kTitle,
             fontWeight: FontWeight.bold,
           ),
-          headline4: TextStyle(
+          headlineMedium: TextStyle(
             fontSize: 24.sp,
             color: AppColor.kTitle,
           ),
-          headline5: TextStyle(
+          headlineSmall: TextStyle(
             fontSize: 20.sp,
             color: AppColor.kTitle,
           ),
-          headline6: TextStyle(
+          titleLarge: TextStyle(
             fontSize: 16.sp,
             color: AppColor.kTitle,
           ),
-          bodyText1: TextStyle(
+          bodyLarge: TextStyle(
             fontSize: 12.sp,
             color: AppColor.kTitle,
           ),
-          bodyText2: TextStyle(
+          bodyMedium: TextStyle(
             fontSize: 14.sp,
             color: AppColor.kTitle,
           ),

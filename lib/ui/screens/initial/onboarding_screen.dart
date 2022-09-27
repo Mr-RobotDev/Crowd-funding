@@ -69,7 +69,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           children: [
             Text(
               'AFOFA',
-              style: Theme.of(context).textTheme.headline1!.copyWith(
+              style: Theme.of(context).textTheme.displayLarge!.copyWith(
                     color: Colors.white,
                   ),
             ),
@@ -265,7 +265,7 @@ class PageScaffold extends StatelessWidget {
         Spacer(),
         Text(
           pageDetail['text'] as String,
-          style: Theme.of(context).textTheme.headline2!.copyWith(
+          style: Theme.of(context).textTheme.displayMedium!.copyWith(
                 color: AppColor.kTextColor1,
                 fontWeight: FontWeight.w600,
               ),
@@ -278,7 +278,7 @@ class PageScaffold extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 16.0.w),
           child: Text(
             pageDetail['desc'] as String,
-            style: Theme.of(context).textTheme.bodyText2!.copyWith(
+            style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                   color: AppColor.kTextColor1,
                 ),
             textAlign: TextAlign.center,

@@ -46,7 +46,7 @@ class Selection extends StatelessWidget {
                     child: Center(
                       child: Text(
                         'Donation',
-                        style: Theme.of(context).textTheme.headline6!.copyWith(
+                        style: Theme.of(context).textTheme.titleLarge!.copyWith(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
                             ),
@@ -79,7 +79,7 @@ class Selection extends StatelessWidget {
                   child: Center(
                     child: Text(
                       'My Charity',
-                      style: Theme.of(context).textTheme.headline6!.copyWith(
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),

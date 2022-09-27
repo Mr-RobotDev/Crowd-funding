@@ -82,7 +82,7 @@ class _SwapScreenState extends State<SwapScreen> {
                                     'My Charity',
                                     style: Theme.of(context)
                                         .textTheme
-                                        .headline5!
+                                        .headlineSmall!
                                         .copyWith(
                                           color: AppColor.kTitle,
                                           fontWeight: FontWeight.bold,
@@ -99,7 +99,7 @@ class _SwapScreenState extends State<SwapScreen> {
                               'Activity',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline6!
+                                  .titleLarge!
                                   .copyWith(
                                     fontWeight: FontWeight.bold,
                                   ),

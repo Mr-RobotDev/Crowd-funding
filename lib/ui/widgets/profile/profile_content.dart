@@ -37,7 +37,7 @@ class ProfileContent extends StatelessWidget {
               children: [
                 Text(
                   'Payment Method',
-                  style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                  style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                         color: AppColor.kTextColor1,
                       ),
                 ),

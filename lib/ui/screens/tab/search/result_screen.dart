@@ -127,7 +127,7 @@ class ResultScreen extends StatelessWidget {
                                   result.title,
                                   style: Theme.of(context)
                                       .textTheme
-                                      .headline4!
+                                      .headlineMedium!
                                       .copyWith(
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -137,7 +137,7 @@ class ResultScreen extends StatelessWidget {
                                   'By: ${result.organizer}',
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText1!
+                                      .bodyLarge!
                                       .copyWith(
                                         color: AppColor.kTextColor1,
                                       ),
@@ -179,7 +179,7 @@ class ResultScreen extends StatelessWidget {
                                           'Target: ',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .bodyText1!
+                                              .bodyLarge!
                                               .copyWith(
                                                 color: AppColor.kTextColor1,
                                               ),
@@ -188,7 +188,7 @@ class ResultScreen extends StatelessWidget {
                                           '\$${result.target}',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .headline6!
+                                              .titleLarge!
                                               .copyWith(
                                                 fontWeight: FontWeight.bold,
                                               ),
@@ -204,7 +204,7 @@ class ResultScreen extends StatelessWidget {
                                           'Remaining: ',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .bodyText1!
+                                              .bodyLarge!
                                               .copyWith(
                                                 color: AppColor.kTextColor1,
                                               ),
@@ -213,7 +213,7 @@ class ResultScreen extends StatelessWidget {
                                           '\$${result.remaining}',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .headline6!
+                                              .titleLarge!
                                               .copyWith(
                                                 fontWeight: FontWeight.bold,
                                               ),
@@ -227,7 +227,7 @@ class ResultScreen extends StatelessWidget {
                                   result.desc,
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText2!
+                                      .bodyMedium!
                                       .copyWith(
                                         color: AppColor.kTextColor1,
                                         height: 2,
@@ -395,7 +395,7 @@ class ResultScreen extends StatelessWidget {
                               'Share this by...',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline6!
+                                  .titleLarge!
                                   .copyWith(
                                     fontWeight: FontWeight.bold,
                                   ),

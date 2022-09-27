@@ -18,7 +18,7 @@ class SignupScreen extends StatelessWidget {
             children: [
               Text(
                 'AFOFA',
-                style: Theme.of(context).textTheme.headline1!.copyWith(
+                style: Theme.of(context).textTheme.displayLarge!.copyWith(
                       color: Colors.white,
                     ),
               ),
@@ -64,7 +64,7 @@ class SignupScreen extends StatelessWidget {
                                   'Already have account? ',
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText1!
+                                      .bodyLarge!
                                       .copyWith(
                                         color: AppColor.kTextColor1,
                                       ),
@@ -73,7 +73,7 @@ class SignupScreen extends StatelessWidget {
                                   'Sign in',
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText1!
+                                      .bodyLarge!
                                       .copyWith(
                                         color: AppColor.kAccentColor,
                                         fontWeight: FontWeight.bold,

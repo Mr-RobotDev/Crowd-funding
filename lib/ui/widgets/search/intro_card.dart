@@ -73,7 +73,7 @@ class IntroCard extends StatelessWidget {
                   ),
                   Text(
                     'Finding Help to Take Their Next Steps',
-                    style: Theme.of(context).textTheme.headline6!.copyWith(
+                    style: Theme.of(context).textTheme.titleLarge!.copyWith(
                           fontWeight: FontWeight.bold,
                         ),
                   ),

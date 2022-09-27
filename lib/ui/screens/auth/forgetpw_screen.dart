@@ -22,7 +22,7 @@ class ForgetPwScreen extends StatelessWidget {
               children: [
                 Text(
                   'AFOFA',
-                  style: Theme.of(context).textTheme.headline1!.copyWith(
+                  style: Theme.of(context).textTheme.displayLarge!.copyWith(
                         color: Colors.white,
                       ),
                 ),
@@ -55,7 +55,7 @@ class ForgetPwScreen extends StatelessWidget {
                               'Forget',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline3!
+                                  .displaySmall!
                                   .copyWith(
                                     color: AppColor.kPrimaryColor,
                                   ),
@@ -64,7 +64,7 @@ class ForgetPwScreen extends StatelessWidget {
                               'Password?',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline3!
+                                  .displaySmall!
                                   .copyWith(
                                     color: AppColor.kPrimaryColor,
                                   ),

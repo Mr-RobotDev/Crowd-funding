@@ -24,7 +24,7 @@ class Header extends StatelessWidget {
                 ),
                 Text(
                   'Morganisa',
-                  style: Theme.of(context).textTheme.headline6!.copyWith(
+                  style: Theme.of(context).textTheme.titleLarge!.copyWith(
                         color: AppColor.kTitle,
                         fontWeight: FontWeight.bold,
                       ),

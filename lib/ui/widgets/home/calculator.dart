@@ -87,7 +87,7 @@ class _CalculatorState extends State<Calculator> {
             children: [
               Text(
                 '\$',
-                style: Theme.of(context).textTheme.headline6!.copyWith(
+                style: Theme.of(context).textTheme.titleLarge!.copyWith(
                       color: AppColor.kPrimaryColor,
                       fontWeight: FontWeight.bold,
                     ),
@@ -278,7 +278,7 @@ class _CalculatorState extends State<Calculator> {
         padding: EdgeInsets.symmetric(vertical: 8.h, horizontal: 16.w),
         child: Text(
           '000',
-          style: Theme.of(context).textTheme.headline3!.copyWith(
+          style: Theme.of(context).textTheme.displaySmall!.copyWith(
                 color: AppColor.kPrimaryColor,
               ),
         ),
@@ -299,7 +299,7 @@ class _CalculatorState extends State<Calculator> {
         padding: EdgeInsets.symmetric(vertical: 8.h, horizontal: 16.w),
         child: Text(
           '$index',
-          style: Theme.of(context).textTheme.headline3!.copyWith(
+          style: Theme.of(context).textTheme.displaySmall!.copyWith(
                 color: AppColor.kPrimaryColor,
               ),
         ),

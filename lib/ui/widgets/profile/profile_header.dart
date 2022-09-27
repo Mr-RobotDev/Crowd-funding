@@ -29,7 +29,7 @@ class ProfileHeader extends StatelessWidget {
         Expanded(
           child: Text(
             'Edit Profile',
-            style: Theme.of(context).textTheme.headline5!.copyWith(
+            style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                   color: AppColor.kTitle,
                   fontWeight: FontWeight.bold,
                 ),

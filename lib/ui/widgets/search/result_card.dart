@@ -96,7 +96,7 @@ class ResultCard extends StatelessWidget {
               children: [
                 Text(
                   result.title,
-                  style: Theme.of(context).textTheme.headline6!.copyWith(
+                  style: Theme.of(context).textTheme.titleLarge!.copyWith(
                         fontWeight: FontWeight.bold,
                       ),
                   maxLines: 1,
@@ -104,7 +104,7 @@ class ResultCard extends StatelessWidget {
                 ),
                 Text(
                   'By: ${result.organizer}',
-                  style: Theme.of(context).textTheme.bodyText2!.copyWith(
+                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                         color: AppColor.kTextColor1,
                       ),
                   maxLines: 1,

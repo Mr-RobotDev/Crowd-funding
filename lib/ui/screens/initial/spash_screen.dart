@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 children: [
                   Text(
                     'AFOFA',
-                    style: Theme.of(context).textTheme.headline1!.copyWith(
+                    style: Theme.of(context).textTheme.displayLarge!.copyWith(
                           color: Colors.white,
                         ),
                   ),

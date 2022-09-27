@@ -54,7 +54,7 @@ class DonationScreen extends StatelessWidget {
                           child: Text(
                             'Donation Detail',
                             style:
-                                Theme.of(context).textTheme.headline5!.copyWith(
+                                Theme.of(context).textTheme.headlineSmall!.copyWith(
                                       color: AppColor.kTitle,
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -143,7 +143,7 @@ class DonationScreen extends StatelessWidget {
                     Spacer(),
                     Text(
                       'Payment Method',
-                      style: Theme.of(context).textTheme.headline6!.copyWith(
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(
                             fontSize: 18.sp,
                             color: AppColor.kTitle,
                             fontWeight: FontWeight.bold,
@@ -172,12 +172,12 @@ class DonationScreen extends StatelessWidget {
                     Row(
                       children: [
                         Text('Total',
-                            style: Theme.of(context).textTheme.headline6),
+                            style: Theme.of(context).textTheme.titleLarge),
                         Spacer(),
                         Text(
                           '\$$total',
                           style:
-                              Theme.of(context).textTheme.headline5!.copyWith(
+                              Theme.of(context).textTheme.headlineSmall!.copyWith(
                                     fontWeight: FontWeight.bold,
                                   ),
                         ),
@@ -242,7 +242,7 @@ class DonationScreen extends StatelessWidget {
                           Text(
                             'Thank You',
                             style:
-                                Theme.of(context).textTheme.headline4!.copyWith(
+                                Theme.of(context).textTheme.headlineMedium!.copyWith(
                                       fontWeight: FontWeight.bold,
                                     ),
                           ),

@@ -53,7 +53,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 child: !isSearching
                     ? Text(
                         'Explore',
-                        style: Theme.of(context).textTheme.headline5!.copyWith(
+                        style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                               fontWeight: FontWeight.bold,
                             ),
                       )
@@ -79,7 +79,7 @@ class _SearchScreenState extends State<SearchScreen> {
                               'Search Result',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline5!
+                                  .headlineSmall!
                                   .copyWith(
                                     color: AppColor.kTitle,
                                     fontWeight: FontWeight.bold,

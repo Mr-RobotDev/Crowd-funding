@@ -85,7 +85,7 @@ class CharityCard extends StatelessWidget {
                     ),
                     child: Text(
                       'Fundraising to recover Eu La Museum',
-                      style: Theme.of(context).textTheme.headline6!.copyWith(
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(
                             color: AppColor.kPrimaryColor,
                             fontWeight: FontWeight.bold,
                           ),
@@ -100,7 +100,7 @@ class CharityCard extends StatelessWidget {
                           Text(
                             '\$105.69',
                             style:
-                                Theme.of(context).textTheme.headline6!.copyWith(
+                                Theme.of(context).textTheme.titleLarge!.copyWith(
                                       color: AppColor.kPrimaryColor,
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -119,7 +119,7 @@ class CharityCard extends StatelessWidget {
                           Text(
                             '\$250.00',
                             style:
-                                Theme.of(context).textTheme.headline6!.copyWith(
+                                Theme.of(context).textTheme.titleLarge!.copyWith(
                                       color: AppColor.kPrimaryColor,
                                       fontWeight: FontWeight.bold,
                                     ),

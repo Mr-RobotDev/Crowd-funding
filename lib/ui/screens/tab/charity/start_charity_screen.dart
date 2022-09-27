@@ -37,7 +37,7 @@ class StartCharityScreen extends StatelessWidget {
                         Text(
                           'Start a Charity',
                           style:
-                              Theme.of(context).textTheme.headline6!.copyWith(
+                              Theme.of(context).textTheme.titleLarge!.copyWith(
                                     fontWeight: FontWeight.bold,
                                   ),
                         ),
@@ -48,7 +48,7 @@ class StartCharityScreen extends StatelessWidget {
                           width: 0.7.sw,
                           child: Text(
                             'Choose the type of your charity program',
-                            style: Theme.of(context).textTheme.headline6,
+                            style: Theme.of(context).textTheme.titleLarge,
                           ),
                         ),
                         Spacer(),

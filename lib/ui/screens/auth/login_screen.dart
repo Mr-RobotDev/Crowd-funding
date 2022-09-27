@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
             children: [
               Text(
                 'AFOFA',
-                style: Theme.of(context).textTheme.headline1!.copyWith(
+                style: Theme.of(context).textTheme.displayLarge!.copyWith(
                       color: Colors.white,
                     ),
               ),
@@ -65,7 +65,7 @@ class LoginScreen extends StatelessWidget {
                                   'Don\'t have account? ',
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText1!
+                                      .bodyLarge!
                                       .copyWith(
                                         color: AppColor.kTextColor1,
                                       ),
@@ -74,7 +74,7 @@ class LoginScreen extends StatelessWidget {
                                   'Create new account',
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText1!
+                                      .bodyLarge!
                                       .copyWith(
                                         color: AppColor.kAccentColor,
                                         fontWeight: FontWeight.bold,
@@ -206,13 +206,13 @@ class LoginForm extends StatelessWidget {
       children: [
         Text(
           'Sign in',
-          style: Theme.of(context).textTheme.headline3!.copyWith(
+          style: Theme.of(context).textTheme.displaySmall!.copyWith(
                 color: AppColor.kPrimaryColor,
               ),
         ),
         Text(
           'to continue',
-          style: Theme.of(context).textTheme.headline3!.copyWith(
+          style: Theme.of(context).textTheme.displaySmall!.copyWith(
                 color: AppColor.kPrimaryColor,
               ),
         ),
@@ -240,7 +240,7 @@ class LoginForm extends StatelessWidget {
               ),
               child: Text(
                 'Forgot password?',
-                style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                       color: AppColor.kAccentColor,
                       fontWeight: FontWeight.bold,
                     ),

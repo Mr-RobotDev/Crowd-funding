@@ -126,7 +126,7 @@ class DetailScreen extends StatelessWidget {
                                   urgent.title,
                                   style: Theme.of(context)
                                       .textTheme
-                                      .headline4!
+                                      .headlineMedium!
                                       .copyWith(
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -136,7 +136,7 @@ class DetailScreen extends StatelessWidget {
                                   'By: ${urgent.organizer}',
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText1!
+                                      .bodyLarge!
                                       .copyWith(
                                         color: AppColor.kTextColor1,
                                       ),
@@ -178,7 +178,7 @@ class DetailScreen extends StatelessWidget {
                                           'Target: ',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .bodyText1!
+                                              .bodyLarge!
                                               .copyWith(
                                                 color: AppColor.kTextColor1,
                                               ),
@@ -187,7 +187,7 @@ class DetailScreen extends StatelessWidget {
                                           '\$${urgent.target}',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .headline6!
+                                              .titleLarge!
                                               .copyWith(
                                                 fontWeight: FontWeight.bold,
                                               ),
@@ -203,7 +203,7 @@ class DetailScreen extends StatelessWidget {
                                           'Remaining: ',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .bodyText1!
+                                              .bodyLarge!
                                               .copyWith(
                                                 color: AppColor.kTextColor1,
                                               ),
@@ -212,7 +212,7 @@ class DetailScreen extends StatelessWidget {
                                           '\$${urgent.remaining}',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .headline6!
+                                              .titleLarge!
                                               .copyWith(
                                                 fontWeight: FontWeight.bold,
                                               ),
@@ -226,7 +226,7 @@ class DetailScreen extends StatelessWidget {
                                   urgent.desc,
                                   style: Theme.of(context)
                                       .textTheme
-                                      .bodyText2!
+                                      .bodyMedium!
                                       .copyWith(
                                         color: AppColor.kTextColor1,
                                         height: 2,
@@ -394,7 +394,7 @@ class DetailScreen extends StatelessWidget {
                               'Share this by...',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline6!
+                                  .titleLarge!
                                   .copyWith(
                                     fontWeight: FontWeight.bold,
                                   ),

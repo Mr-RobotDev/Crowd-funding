@@ -42,7 +42,7 @@ class CharityContent extends StatelessWidget {
           ),
           Text(
             'You haven\'t start a charity',
-            style: Theme.of(context).textTheme.headline4!.copyWith(
+            style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                   fontWeight: FontWeight.bold,
                   color: AppColor.kForthColor,
                 ),
@@ -51,7 +51,7 @@ class CharityContent extends StatelessWidget {
             width: 200.w,
             child: Text(
               'Maybe you have someone to help? Go create charity program by your own.',
-              style: Theme.of(context).textTheme.bodyText2!.copyWith(
+              style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                     color: AppColor.kForthColor,
                   ),
               textAlign: TextAlign.center,
@@ -81,7 +81,7 @@ class DonationContent extends StatelessWidget {
           ),
           Text(
             'There is no latest activity',
-            style: Theme.of(context).textTheme.headline4!.copyWith(
+            style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                   fontWeight: FontWeight.bold,
                   color: AppColor.kForthColor,
                 ),
@@ -90,7 +90,7 @@ class DonationContent extends StatelessWidget {
             width: 200.w,
             child: Text(
               'There is no activity right now, start donate and spread your love with others.',
-              style: Theme.of(context).textTheme.bodyText2!.copyWith(
+              style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                     color: AppColor.kForthColor,
                   ),
               textAlign: TextAlign.center,

@@ -15,13 +15,13 @@ class SignupForm extends StatelessWidget {
       children: [
         Text(
           'Create New',
-          style: Theme.of(context).textTheme.headline3!.copyWith(
+          style: Theme.of(context).textTheme.displaySmall!.copyWith(
                 color: AppColor.kPrimaryColor,
               ),
         ),
         Text(
           'Account',
-          style: Theme.of(context).textTheme.headline3!.copyWith(
+          style: Theme.of(context).textTheme.displaySmall!.copyWith(
                 color: AppColor.kPrimaryColor,
               ),
         ),

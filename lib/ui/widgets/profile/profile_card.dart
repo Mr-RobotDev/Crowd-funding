@@ -38,13 +38,13 @@ class ProfileCard extends StatelessWidget {
             children: [
               Text(
                 'Chiro Morganisa',
-                style: Theme.of(context).textTheme.headline5!.copyWith(
+                style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
               ),
               Text(
                 '🇷🇺 +768-907-6969',
-                style: Theme.of(context).textTheme.headline6!.copyWith(
+                style: Theme.of(context).textTheme.titleLarge!.copyWith(
                       color: AppColor.kTextColor1,
                     ),
               ),

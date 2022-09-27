@@ -42,7 +42,7 @@ class CharityInputField extends StatelessWidget {
                   borderSide: BorderSide.none,
                 ),
                 hintText: hintText,
-                hintStyle: Theme.of(context).textTheme.bodyText1!.copyWith(
+                hintStyle: Theme.of(context).textTheme.bodyLarge!.copyWith(
                       color: AppColor.kTextColor1,
                     ),
                 contentPadding: EdgeInsets.symmetric(

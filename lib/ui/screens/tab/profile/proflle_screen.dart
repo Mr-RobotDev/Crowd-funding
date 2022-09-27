@@ -46,7 +46,7 @@ class ProfileScreen extends StatelessWidget {
                         ? Text(
                             'Profile',
                             style:
-                                Theme.of(context).textTheme.headline6!.copyWith(
+                                Theme.of(context).textTheme.titleLarge!.copyWith(
                                       fontWeight: FontWeight.bold,
                                     ),
                           )

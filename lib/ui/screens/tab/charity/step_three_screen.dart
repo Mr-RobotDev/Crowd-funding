@@ -17,7 +17,7 @@ class StepThreeScreen extends StatelessWidget {
       children: [
         Text(
           'Start a Charity',
-          style: Theme.of(context).textTheme.headline6!.copyWith(
+          style: Theme.of(context).textTheme.titleLarge!.copyWith(
                 fontWeight: FontWeight.bold,
               ),
         ),
@@ -26,7 +26,7 @@ class StepThreeScreen extends StatelessWidget {
         ),
         Text(
           'Complete your personal information to proceed to this charity program',
-          style: Theme.of(context).textTheme.bodyText2,
+          style: Theme.of(context).textTheme.bodyMedium,
         ),
         SizedBox(
           height: 24.h,
@@ -115,7 +115,7 @@ class StepThreeScreen extends StatelessWidget {
                 ),
                 borderSide: BorderSide.none,
               ),
-              hintStyle: Theme.of(context).textTheme.bodyText1!.copyWith(
+              hintStyle: Theme.of(context).textTheme.bodyLarge!.copyWith(
                     color: AppColor.kTextColor1,
                   ),
             ),
