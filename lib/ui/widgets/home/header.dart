@@ -23,7 +23,7 @@ class Header extends StatelessWidget {
                   'Hello!',
                 ),
                 Text(
-                  'Morganisa',
+                  'Abdullah',
                   style: Theme.of(context).textTheme.titleLarge!.copyWith(
                         color: AppColor.kTitle,
                         fontWeight: FontWeight.bold,

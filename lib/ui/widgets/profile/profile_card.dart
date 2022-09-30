@@ -37,13 +37,13 @@ class ProfileCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Chiro Morganisa',
+                'Abdullah Shahid',
                 style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
               ),
               Text(
-                '🇷🇺 +768-907-6969',
+                '🇵🇰 +92-303-8531735',
                 style: Theme.of(context).textTheme.titleLarge!.copyWith(
                       color: AppColor.kTextColor1,
                     ),

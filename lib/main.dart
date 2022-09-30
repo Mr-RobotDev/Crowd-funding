@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: Size(414, 896),
-      builder: () => MaterialApp(
+      builder: (context, child) => MaterialApp(
         title: 'AFOFA',
         theme: AppTheme(context).initTheme(),
         debugShowCheckedModeBanner: false,

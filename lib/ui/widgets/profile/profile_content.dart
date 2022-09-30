@@ -21,12 +21,12 @@ class ProfileContent extends StatelessWidget {
         Spacer(),
         Details(
           title: 'Email address',
-          desc: 'chiromorgan@gmail.com',
+          desc: 'abdullahshahid1071@gmail.com',
         ),
         Spacer(),
         Details(
           title: 'Account ID',
-          desc: '18-92768AC009',
+          desc: '47-92768AC009',
         ),
         Spacer(),
         Row(
@@ -97,7 +97,7 @@ class ProfileContent extends StatelessWidget {
             Expanded(
               child: Details(
                 title: 'Help and support',
-                desc: 'afofa@ymail.com',
+                desc: 'help@afofa.com',
               ),
             ),
             GestureDetector(
@@ -125,7 +125,7 @@ class ProfileContent extends StatelessWidget {
         Spacer(),
         Details(
           title: 'Version',
-          desc: '1.01.2',
+          desc: '1.0.0',
         ),
         Spacer(),
         ElevatedButton(

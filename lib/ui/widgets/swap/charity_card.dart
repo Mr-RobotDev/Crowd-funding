@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 
 import '../../../theme/app_color.dart';
-import 'percentage_indicator.dart';
 
 class CharityCard extends StatelessWidget {
   const CharityCard({this.onTap});
@@ -98,12 +98,14 @@ class CharityCard extends StatelessWidget {
                       Column(
                         children: [
                           Text(
-                            '\$105.69',
-                            style:
-                                Theme.of(context).textTheme.titleLarge!.copyWith(
-                                      color: AppColor.kPrimaryColor,
-                                      fontWeight: FontWeight.bold,
-                                    ),
+                            '\$187.50',
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleLarge!
+                                .copyWith(
+                                  color: AppColor.kPrimaryColor,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                           Text(
                             'Raised',
@@ -113,16 +115,25 @@ class CharityCard extends StatelessWidget {
                           ),
                         ],
                       ),
-                      PercentageIndicatior(),
+                      // Percentage Indicatior
+                      CircularPercentIndicator(
+                        radius: 32.0,
+                        lineWidth: 10.0,
+                        percent: 0.75,
+                        center: new Text("75%"),
+                        progressColor: Colors.green,
+                      ),
                       Column(
                         children: [
                           Text(
                             '\$250.00',
-                            style:
-                                Theme.of(context).textTheme.titleLarge!.copyWith(
-                                      color: AppColor.kPrimaryColor,
-                                      fontWeight: FontWeight.bold,
-                                    ),
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleLarge!
+                                .copyWith(
+                                  color: AppColor.kPrimaryColor,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                           Text(
                             'Target',

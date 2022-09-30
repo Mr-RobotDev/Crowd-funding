@@ -11,9 +11,20 @@ class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
       : super(ProfileInitial(
           isEditing: false,
           isPayment: false,
-        ));
+        )) {
+    on<SetEdit>((event, emit) {
+      emit(ProfileEditing());
+    });
 
-  @override
+    on<SetPayment>((event, emit) {
+      emit(ProfilePayment());
+    });
+
+    on<SetHome>((event, emit) {
+      emit(ProfileHome());
+    });
+  }
+
   Stream<ProfileState> mapEventToState(
     ProfileEvent event,
   ) async* {

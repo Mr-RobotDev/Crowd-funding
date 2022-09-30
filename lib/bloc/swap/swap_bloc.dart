@@ -14,9 +14,34 @@ class SwapBloc extends Bloc<SwapEvent, SwapState> {
           controller: controller,
           isDetail: false,
           isEmpty: false,
-        ));
+        )) {
+    on<SetSwap>((event, emit) {
+      emit(SwapState(
+        isDonation: event.isDonation,
+        controller: state.controller,
+        isDetail: state.isDetail,
+        isEmpty: state.isEmpty,
+      ));
+    });
 
-  @override
+    on<SetEmpty>((event, emit) {
+      emit(SwapState(
+        isDonation: state.isDonation,
+        controller: state.controller,
+        isDetail: state.isDetail,
+        isEmpty: event.isEmpty,
+      ));
+    });
+
+    on<SetDetail>((event, emit) {
+      emit(SwapState(
+        isDonation: state.isDonation,
+        controller: state.controller,
+        isDetail: event.isDetail,
+        isEmpty: state.isEmpty,
+      ));
+    });
+  }
   Stream<SwapState> mapEventToState(
     SwapEvent event,
   ) async* {

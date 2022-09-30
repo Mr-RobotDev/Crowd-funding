@@ -9,7 +9,6 @@ part 'payment_state.dart';
 class PaymentBloc extends Bloc<PaymentEvent, PaymentState> {
   PaymentBloc() : super(PaymentState(1));
 
-  @override
   Stream<PaymentState> mapEventToState(
     PaymentEvent event,
   ) async* {
